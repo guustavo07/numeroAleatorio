@@ -24,23 +24,23 @@ export default App
 const style = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#FF0000',
+    backgroundColor: '#BA181B',
     alignItems: 'center',
     justifyContent: 'center'
   },
   numero: {
-    fontSize: 38,
+    fontSize: 50,
     color: '#FFFFFF',
     fontWeight: 'bold'
   },
   botao: {
     backgroundColor: '#FFFFFF',
     width: '80%',
-    paddingHorizontal: 5,
-    paddingVertical: 10,
-    borderRadius: 5,
+    paddingHorizontal: 20,
+    paddingVertical: 20,
+    borderRadius: 10,
     justifyContent: 'center',
     alignItems: 'center',
-    marginTop: 10
+    marginTop: 15
   }
 })
